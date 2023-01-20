@@ -1,0 +1,10 @@
+version: "3"
+services:
+  test_front_end:
+    build:
+      context: ./front
+    image: front_test:dev
+  test_back_end:
+    build:
+      context: ./back
+    image: back_test:dev
